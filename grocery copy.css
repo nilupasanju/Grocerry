@@ -1,0 +1,99 @@
+/*......Main Page...*/
+
+header {
+    height: 15vh;
+    background-color: rgb(206, 196, 63);
+    width: 100%;
+}
+.rowh{
+    width: auto;
+    height: auto;
+    
+    
+}
+/*product table*/
+
+#product{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: black;
+}
+#product td, #product th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#product th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1682a3;
+  color: white;
+}
+
+  /* Add a blue text color to links */
+  .main-nav {
+    
+    list-style: none;
+    display: inline;
+    text-indent: 12pt;
+  
+    
+
+}
+.main-nav li a{
+    float: right;
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+}
+  a {
+    color: rgb(213, 218, 223);
+  }
+  
+ 
+    
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+    
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    
+/*...   footer ...*/
+.footer{
+    
+    text-align: center;
+    color: rgb(36, 32, 32);
+    width: 100%;
+    padding-bottom: 50px;
+    height:auto;
+    background-color:#F7C201;
+    
+    
+}
+.footer-nav{
+    
+    text-indent: 12pt;
+    list-style: none;
+    display: inline;
+    
+}
+.footer-nav a{
+    color: rgb(7, 9, 10);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
